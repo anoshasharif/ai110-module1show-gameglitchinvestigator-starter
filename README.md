@@ -25,19 +25,25 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [The game allows players to guess a secret number while receiving hints and tracking their score. ] Describe the game's purpose.
+
+- [Show Hints toggle hid essential feedback.
+   Higher/Lower hint messages were reversed.
+   Attempt counting was incorrect] Detail which bugs you found.
+
+- [Made feedback display regardless of the hint toggle.
+   Corrected the Higher/Lower messages.
+   Fixed attempt counting and validated guesses before incrementing attempts.] Explain what fixes you applied.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. <!-- The game starts and displays the number of attempts remaining. -->
+2. <!-- The player enters a guess below the secret number and receives "Go HIGHER!". -->
+3. <!-- The player enters a guess above the secret number and receives "Go LOWER!". -->
+4. <!-- The score updates after each valid guess. -->
+5. <!-- The game ends after the final attempt or when the player guesses the correct number. -->
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
